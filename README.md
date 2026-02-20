@@ -9,7 +9,6 @@
 - tests + CI
 
 ## Train
-   "```bash"
 python train_model.py
 
 ## Run API
