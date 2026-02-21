@@ -8,12 +8,4 @@
 - FastAPI inference API + Docker
 - tests + CI
 
-## Train
-python train_model.py
 
-## Run API
-uvicorn src.phishguard.api:app --reload --port 8000
-
-## Docker
-docker build -t phishguard .
-docker run -p 8000:8000 phishguard
