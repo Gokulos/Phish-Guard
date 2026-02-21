@@ -1,11 +1,8 @@
 # PhishGuard — Phishing URL Detection
 
-## What it does
-  Detects phishing URLs using engineered URL & domain features. Includes:
-- reproducible training with stratified split + CV hyperparameter search
-- PR-AUC / ROC-AUC evaluation
-- decision-threshold tuning to reduce false negatives
-- FastAPI inference API + Docker
-- tests + CI
-
-
+# Complete Workflow
+## Dataset
+- Phishing - PhishTank
+- Legitimate(better Ranked) - Cisco Umbrella
+- Did Preprocessing on both data, Merged both after making the count similar on both datasets, and Extracted these features from the URLs     
+## Model
